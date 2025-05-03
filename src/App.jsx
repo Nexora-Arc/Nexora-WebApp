@@ -197,7 +197,7 @@ const App = () => {
   }, [scrolled]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Nexora-WebApp">
       <div 
         className="relative min-h-screen bg-black text-white overflow-hidden select-none"
         style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none', msUserSelect: 'none' }}
