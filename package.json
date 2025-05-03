@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Nexora-Arc.github.io/Nexora-WebApp",
+  "homepage": "https://nexora-arc.github.io/Nexora-WebApp",
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "lucide-react": "^0.344.0",
