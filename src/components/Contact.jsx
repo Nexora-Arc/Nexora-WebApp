@@ -355,7 +355,7 @@ const Contact = () => {
 
   const workshops = [
     { id: 'c-beginner', name: 'ABC TO C: C Language Workshop' },
-    { id: 'c-advanced', name: 'C Programming -' },
+    { id: 'c-advanced', name: 'C Programming - Advanced' },
     { id: 'iot-beginner', name: 'IoT Technology - Beginner' },
     { id: 'iot-intermediate', name: 'IoT Technology - Intermediate' },
     { id: 'iot-advanced', name: 'IoT Technology - Advanced' }
