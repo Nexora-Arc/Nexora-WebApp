@@ -1,5 +1,7 @@
 import React from 'react';
-import { Linkedin, Twitter } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
+import { FaXTwitter } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const FounderCard = ({ founder, index }) => {
   return (
@@ -15,12 +17,12 @@ const FounderCard = ({ founder, index }) => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-4">
           <div className="flex space-x-3">
-            <a href="#" className="w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/40 transition-colors">
+            <Link to={founder.linkdin} className="w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/40 transition-colors">
               <Linkedin className="h-4 w-4 text-white" />
-            </a>
-            <a href="#" className="w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/40 transition-colors">
-              <Twitter className="h-4 w-4 text-white" />
-            </a>
+            </Link>
+            <Link to={founder.xtwitter} className="w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/40 transition-colors">
+              <FaXTwitter className="h-4 w-4 text-white" />
+            </Link>
           </div>
         </div>
       </div>

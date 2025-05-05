@@ -130,6 +130,8 @@ import Workshops from "./components/Workshops";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ParticlesBackground from "./components/ParticlesBackground";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsAndConditions";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -212,6 +214,8 @@ const App = () => {
               <Route path="/workshops" element={<Workshops />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-of-service" element={<TermsAndConditions />} />
             </Routes>
           </main>
           <Footer />

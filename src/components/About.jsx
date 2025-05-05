@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import { Users } from 'lucide-react';
 import FounderCard from './FounderCard';
+// import yash from "../../assets/founders/yash.png";
+// import kahani from "../../assets/founders/kahani.png";
+// import ritu from "../../assets/founders/ritu.png";
+// import urvisha from "../../assets/founders/urvisha.png";
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -30,28 +34,40 @@ const About = () => {
       id: 1,
       name: 'Yash Savaliya',
       role: 'Founder',
+      linkdin : "https://www.linkedin.com/in/yash-savaliya-498358259/",
+      xtwitter : "https://x.com/yash_patel_0402",
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // image: {yash},
       bio: '10+ years experience in software development and computer science education.'
     },
     {
       id: 2,
       name: 'Kahani Surani',
       role: 'Founder',
+      linkdin : "https://www.linkedin.com/in/yash-savaliya-498358259/",
+      xtwitter : "https://www.linkedin.com/in/yash-savaliya-498358259/",
       image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // image: {kahani},
       bio: 'Ph.D in Embedded Systems with extensive industry experience in IoT innovations.'
     },
     {
       id: 3,
       name: 'Ritu Sidapara',
       role: 'Founder',
+      linkdin : "https://www.linkedin.com/in/yash-savaliya-498358259/",
+      xtwitter : "https://www.linkedin.com/in/yash-savaliya-498358259/",
       image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // image: {ritu},
       bio: 'Former senior engineer with expertise in systems architecture and IoT deployment.'
     },
     {
       id: 4,
-      name: 'Urvish Gohel',
+      name: 'Urvisha Gohel',
       role: 'Founder',
+      linkdin : "https://www.linkedin.com/in/urvisha-gohel-b06542226/",
+      xtwitter : "https://www.linkedin.com/in/yash-savaliya-498358259/",
       image: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=600',
+      // image: {urvisha},
       bio: 'Specialized in creating engaging technical curriculum and workshop management.'
     }
   ];

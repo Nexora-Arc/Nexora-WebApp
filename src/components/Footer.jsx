@@ -98,7 +98,7 @@ const Footer = () => {
                 <FaInstagram className="h-4 w-4 text-white" />
               </Link>
               <Link
-                to="#"
+                to="https://www.linkedin.com/company/nexora-arc-official/"
                 className="w-8 h-8 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors"
               >
                 <Linkedin className="h-4 w-4 text-white" />
@@ -246,13 +246,13 @@ const Footer = () => {
 
           <div className="flex items-center space-x-6">
             <Link
-              to="#"
+              to="/privacy-policy"
               className="text-gray-500 text-sm hover:text-white transition-colors"
             >
               Privacy Policy
             </Link>
             <Link
-              to="#"
+              to="/terms-of-service"
               className="text-gray-500 text-sm hover:text-white transition-colors"
             >
               Terms of Service
