@@ -184,7 +184,7 @@ const Footer = () => {
                     handleScrollToSection("#workshops");
                   }}
                 >
-                  C Programming - Advanced
+                  C TO PRO: C Language Workshop
                 </Link>
               </li>
               <li>
@@ -196,7 +196,7 @@ const Footer = () => {
                     handleScrollToSection("#workshops");
                   }}
                 >
-                  IoT Technology - Beginner
+                  Connect Easy: IoT Technology Workshop
                 </Link>
               </li>
               <li>
@@ -208,7 +208,7 @@ const Footer = () => {
                     handleScrollToSection("#workshops");
                   }}
                 >
-                  IoT Technology - Intermediate
+                  Connect Plus - IoT Technology Workshop
                 </Link>
               </li>
               <li>
@@ -220,7 +220,7 @@ const Footer = () => {
                     handleScrollToSection("#workshops");
                   }}
                 >
-                  IoT Technology - Advanced
+                  Connect Apex - IoT Technology Workshop
                 </Link>
               </li>
             </ul>

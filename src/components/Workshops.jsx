@@ -42,7 +42,7 @@ const Workshops = () => {
     },
     {
       id: 'c-advanced',
-      title: 'C Programming - Advanced',
+      title: 'C TO PRO: C Language Workshop',
       icon: <Code className="h-8 w-8 text-[#DF5BD3]" />,
       points: [
         'Pointers and memory management',
@@ -58,7 +58,7 @@ const Workshops = () => {
   const iotWorkshops = [
     {
       id: 'iot-beginner',
-      title: 'IoT Technology - Beginner',
+      title: 'Connect Easy: IoT Technology Workshop',
       icon: <Cpu className="h-8 w-8 text-[#7E5BF6]" />,
       points: [
         'Introduction to IoT concepts and architecture',
@@ -71,7 +71,7 @@ const Workshops = () => {
     },
     {
       id: 'iot-intermediate',
-      title: 'IoT Technology - Intermediate',
+      title: 'Connect Plus - IoT Technology Workshop',
       icon: <Cpu className="h-8 w-8 text-[#DF5BD3]" />,
       points: [
         'Advanced sensor integration',
@@ -84,7 +84,7 @@ const Workshops = () => {
     },
     {
       id: 'iot-advanced',
-      title: 'IoT Technology - Advanced',
+      title: 'Connect Apex - IoT Technology Workshop',
       icon: <Cpu className="h-8 w-8 text-white" />,
       points: [
         'Cloud integration for IoT applications',

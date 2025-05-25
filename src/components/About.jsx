@@ -97,15 +97,15 @@ const About = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="bg-white/5 backdrop-blur-sm rounded-lg p-4 flex-1">
-                <h4 className="text-[#7E5BF6] font-semibold mb-2">300+</h4>
+                <h4 className="text-[#7E5BF6] font-semibold mb-2">0</h4>
                 <p className="text-gray-300 text-sm">Workshops Conducted</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-lg p-4 flex-1">
-                <h4 className="text-[#DF5BD3] font-semibold mb-2">5000+</h4>
+                <h4 className="text-[#DF5BD3] font-semibold mb-2">0</h4>
                 <p className="text-gray-300 text-sm">Students Trained</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-lg p-4 flex-1">
-                <h4 className="text-white font-semibold mb-2">50+</h4>
+                <h4 className="text-white font-semibold mb-2">0</h4>
                 <p className="text-gray-300 text-sm">Institutional Partners</p>
               </div>
             </div>

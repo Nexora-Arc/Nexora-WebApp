@@ -74,10 +74,10 @@ const Contact = () => {
 
   const workshops = [
     { id: 'c-beginner', name: 'ABC TO C: C Language Workshop' },
-    { id: 'c-advanced', name: 'C Programming - Advanced' },
-    { id: 'iot-beginner', name: 'IoT Technology - Beginner' },
-    { id: 'iot-intermediate', name: 'IoT Technology - Intermediate' },
-    { id: 'iot-advanced', name: 'IoT Technology - Advanced' }
+    { id: 'c-advanced', name: 'C TO PRO: C Language Workshop' },
+    { id: 'iot-beginner', name: 'Connect Easy: IoT Technology Workshop' },
+    { id: 'iot-intermediate', name: 'Connect Plus - IoT Technology Workshop' },
+    { id: 'iot-advanced', name: 'Connect Apex - IoT Technology Workshop' }
   ];
 
   if (state.succeeded) {
